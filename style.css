@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+:root {
+    --azulLogo: #00ccff;
+    --orange: #f78b00;
+    --red: #ff0000;
+    --blue: #00285f;
+    --gray: #e6e6e6;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-color: var(--gray);
+}
+
+.barra-navegacao {
+    max-width: 1000px;
+    min-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Aqui CS*/
+.barra-navegacao img {
+    height: 120px;
+    margin-top: 5px;
+
+
+}
+
+.divisao {
+    min-width: 39px;
+}
+
+.menu_itens ul {
+    margin-left: 1px;
+    color: var(--azul);
+    display: flex;
+    column-gap: 30px;
+    font-size: large;
+
+
+}
+
+.header-flyer {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 390px;
+    background: var(--orange);
+    border-radius: 11px;
+    box-shadow: 1px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgb(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+    margin-top: 15px;
+
+}
+
+.sobre_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: xx-large;
+
+}
+
+.sobre {
+    display: flex;
+}
+
+
+@media (max-width: 800px) {
+
+    .barra-navegacao {}
+
+    nav {
+        justify-content: center;
+
+    }
+
+    .barra-navegacao img {
+        /* height: 115px; */
+        margin-bottom: 5px;
+
+    }
+
+
+    .divisao {
+        min-width: 0px;
+    }
+
+
+    nav.menu_itens {
+        height: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .menu_itens ul {
+        column-gap: 55px;
+    }
+    
+.header-flyer {
+    margin-top: 45px;
+}
+
+}
+
+
+@media (max-width: 600px) {
+
+    .barra-navegacao img {
+        height: 90px;
+        margin-bottom: 0;
+
+    }
+
+    .menu_itens ul {
+        column-gap: 37px;
+
+
+    }
+
+}
