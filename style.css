@@ -364,6 +364,7 @@ nav {
 }
 
 .header-flyer .text h1{
+    font-size: xx-large;
     color: var(--white_ama);
     margin-bottom: 20px;
     text-align: center;
