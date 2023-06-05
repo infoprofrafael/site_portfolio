@@ -366,8 +366,7 @@ Site Blog
 
 @media (max-width: 800px) {
 
-    .barra-navegacao {}
-
+    
     nav {
         justify-content: center;
 
@@ -437,6 +436,7 @@ Site Blog
     
 
 }
+}
 
 
 @media (max-width: 620px) {
@@ -497,8 +497,6 @@ Site Blog
     
 
 }
-
-
 
 
 
