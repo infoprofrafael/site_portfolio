@@ -153,11 +153,9 @@ main{
     max-width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 410px;
+    margin-top: 380px;
     position: sticky;
     top: 0px;
-
-    
 }
 
 .contato {
@@ -174,8 +172,6 @@ main{
     position: sticky;
     top: 0px;
     z-index: 1;
-    
-
 }
 
 #contato {
@@ -189,15 +185,12 @@ Site Blog
     display: flex;
     margin-top: 20px;
     flex-direction: column;
-
-
 }
 
 .author_foo {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 .foto_author {
@@ -395,7 +388,7 @@ Site Blog
 
     .header-flyer {
         margin-top: 15px;
-        min-height: 620px;
+        min-height: 630px;
         padding-top: 7px;
         
 
@@ -432,7 +425,7 @@ Site Blog
     
 .social-cont{
     justify-content: space-around;
-    margin-top: 450px;
+    margin-top: 420px;
     
 
 }
@@ -487,17 +480,12 @@ Site Blog
         font-size: xx-large;
         color: var(--white_ama);
         text-align: center;
-       
-
     }
-
     
 .social-cont{
-    margin-top:709px;
+    margin-top:629px;
     
 
 }
-
-
 
 }
