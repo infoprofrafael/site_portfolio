@@ -166,7 +166,7 @@ main{
 
     
     .home{
-        /* width: 100ch; */
+        width: 100%;
         background-size: cover;
         background-position: left left;
     /*     
