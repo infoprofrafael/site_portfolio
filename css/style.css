@@ -17,7 +17,7 @@
 body{
     
     background-color: black;
-    /* overflow:hidden; */
+   
 }
 
 main{
@@ -82,4 +82,162 @@ main{
     background-position: left center;
 
 }
+
+@media (max-width:1200px){
+
+    
+.home{
+    width: 990px;
+/*     
+    display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/Home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+     */
+    
+}
+
+.services{
+    width: 990px;
+    /* display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/Fundo_services.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center; */
+
+}
+
+.about{
+    width: 990px;
+    /* display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/About.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center; */
+
+}
+
+.case{
+    width: 990px;
+    /* display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/case.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center; */
+
+}
+
+.contato{
+    width: 990px;
+    /* height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/Contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center; */
+
+}
+
+
+
+}
+
+@media (max-width:1000px){
+    body{
+        margin-left: 0;
+         overflow-x: hidden;
+        
+    }
+    
+    main{
+        
+        justify-content: left;
+        
+    
+    }
+
+    
+    .home{
+        /* width: 100ch; */
+        background-size: cover;
+        background-position: left left;
+    /*     
+        display: flex;
+        width: auto;
+        height: 700px;
+        background-image:url('../img/Fundos_Site_GSEOWeb/Home.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+         */
+        
+    }
+    
+    .services{
+        width: 990px;
+        /* display: flex;
+        width: auto;
+        height: 700px;
+        background-image:url('../img/Fundos_Site_GSEOWeb/Fundo_services.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center; */
+    
+    }
+    
+    .about{
+        width: 990px;
+        /* display: flex;
+        width: auto;
+        height: 700px;
+        background-image:url('../img/Fundos_Site_GSEOWeb/About.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center; */
+    
+    }
+    
+    .case{
+        width: 990px;
+        /* display: flex;
+        width: auto;
+        height: 700px;
+        background-image:url('../img/Fundos_Site_GSEOWeb/case.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center; */
+    
+    }
+    
+    .contato{
+        width: 990px;
+        /* height: 700px;
+        background-image:url('../img/Fundos_Site_GSEOWeb/Contact.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center; */
+    
+    }
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
 
