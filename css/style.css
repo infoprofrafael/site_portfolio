@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    color: white;
+    width: auto;
+
+
+    
+}
+
+body{
+    
+    background-color: black;
+    /* overflow:hidden; */
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.home{
+    display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/Home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    
+    
+}
+
+.services{
+    display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/Fundo_services.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+}
+
+.about{
+    display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/About.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+}
+
+.case{
+    display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/case.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+}
+
+.contato{
+    display: flex;
+    width: auto;
+    height: 700px;
+    background-image:url('../img/Fundos_Site_GSEOWeb/Contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+}
+
