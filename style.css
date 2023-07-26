@@ -24,13 +24,16 @@ html,
 body {
     width: 100%;
     overflow-x: hidden;
+    background-color: var(--gray);
 }
 
 header {
     width: 100%;
     height: 480px;
-    background-color: var(--gray);
+    
 }
+
+
 
 .barra-navegacao {
     max-width: 1000px;
@@ -39,6 +42,11 @@ header {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    position: fixed;
+    left:0;
+    top:0;
+    right: 0;
+   
 
 }
 
@@ -50,6 +58,8 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--gray);
+   
 }
 
 /*Aqui CS*/
@@ -158,22 +168,19 @@ main{
 }
 
 .contato {
+    position: sticky;
+    top: 0;   
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     max-width: 1000px;
-    min-width: 700px;
+    min-width: 400px;
     min-height: 120px;
     border-radius: 11px;
     background: linear-gradient(100deg, var(--gray) 50%, var(--azulLogo) 100%);
-    position: sticky;
-    top: 0px;
-    z-index: 2;
-    transform: translateY(-3px);
-    transition: transform 1.2s;
-    box-shadow: 2px 3px 8px 1px rgb(0, 0, 0, 0.7);
-    -webkit-box-shadow: 2px 3px 8px 1px rgb(0, 0, 0, 0.7);
-    -moz-box-shadow: 2px 3px 8px 1px rgb(0, 0, 0, 0.7);
+   
+
+    
     
 }
 
@@ -186,7 +193,7 @@ main{
 Site Blog
 */
 .infofooter {
-    
+   
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -209,16 +216,12 @@ Site Blog
 }
 
 .foto_author {
-    border:  solid 1px var(--blue);
-    border-radius: 5%;
+   
     padding: 8px;
-    max-width: 150px;
+    max-width: 160px;
     margin: 10px;
     transform: translateY(-3px);
-    box-shadow: 2px 3px 8px 1px rgb(0, 0, 0, 1);
-    -webkit-box-shadow: 2px 3px 8px 1px rgb(0, 0, 0, 1);
-    -moz-box-shadow: 2px 3px 8px 1px rgb(0, 0, 0, 1);
-
+   
 }
 
 .foto_author:hover {
@@ -227,16 +230,6 @@ Site Blog
 
 }
 
-.share {
-    display: grid;
-    
-    
-}
-
-.share p {
-    font-size: 120%;
-
-}
 
 .social img {
     height: 44px;
