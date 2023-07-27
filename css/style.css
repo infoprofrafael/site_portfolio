@@ -29,6 +29,7 @@ main{
 
 .home{
     display: flex;
+    flex-wrap: wrap;
     width: auto;
     height: 700px;
     background-image:url('../img/Fundos_Site_GSEOWeb/Home.png');
@@ -51,6 +52,13 @@ main{
 
 }
 
+.services .sevices-tabelas{
+    max-width: 450px;
+}
+.services-coluna2{
+    max-width: 450px;
+}
+
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +70,9 @@ main{
     background-position: left center;
 
 }
-
+.about-coluna1{
+    max-width: 450px;
+}
 .case{
     display: flex;
     flex-wrap: wrap;
