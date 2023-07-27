@@ -74,6 +74,15 @@ main{
     background-position: left center;
 
 }
+.case .case-col1{
+    max-width: 500px;
+}
+
+.case .case-col1 .case-col1-img img{
+    max-width: 500px;
+
+}
+
 .case .iframe-site{
     background-color: white;
     
